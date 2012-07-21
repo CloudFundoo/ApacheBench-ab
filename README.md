@@ -1,11 +1,13 @@
 ApacheBench-ab
 ==============
 
-Stand alone apache bench
+Stand alone apache bench - Apache HTTP server benchmarking tool
 
+Build Instructions
+------------------
 
-NAME
-       ab - Apache HTTP server benchmarking tool
+$make 
+
 
 
 SYNOPSIS
