@@ -12,7 +12,7 @@ $make
 Usage
 ---------
 
-SYNOPSIS
+####SYNOPSIS####
        ab [ -A auth-username:password ] [ -b windowsize ] [ -c concurrency ] [
        -C cookie-name=value ] [ -d ] [ -e csv-file ] [ -f protocol ] [ -g gnu‐
        plot-file ] [ -h ] [ -H custom-header ] [ -i ] [ -k ] [ -n requests ] [
@@ -24,7 +24,7 @@ SYNOPSIS
 
 
 
-SUMMARY
+####SUMMARY####
        ab is a tool for benchmarking your Apache Hypertext  Transfer  Protocol
        (HTTP)  server.  It  is  designed to give you an impression of how your
        current Apache installation performs. This  especially  shows  you  how
@@ -33,7 +33,7 @@ SUMMARY
 
 
 
-OPTIONS
+####OPTIONS####
        -A auth-username:password
               Supply BASIC Authentication credentials to the server. The user‐
               name  and  password  are separated by a single : and sent on the
@@ -153,7 +153,7 @@ OPTIONS
               Specify SSL/TLS cipher suite (See openssl ciphers).
 
 
-BUGS
+####BUGS####
        There are various statically declared buffers of fixed length. Combined
        with the lazy parsing of the command line arguments, the response head‐
        ers from the server and other external inputs, this might bite you.
@@ -163,8 +163,3 @@ BUGS
        forms  of  responses. The rather heavy use of strstr(3) shows up top in
        profile, which might indicate a performance problem;  i.e.,  you  would
        measure the ab performance rather than the server's.
-
-
-
-
-Apache HTTP Server                2012-01-10                             AB(1)
