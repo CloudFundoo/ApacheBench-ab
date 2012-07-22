@@ -11,6 +11,15 @@ Clean:
 
 ##Usage##
 
+#####Simplest Usgae#####
+       #ab -c 25 -n 100 http://www.apache.org/     
+           
+       The three options are:     
+       *   concurrency(-c 25)    
+       *   number of requests(-n 100)    
+       *   URL(http://www.apache.org)   
+
+
 ####SYNOPSIS####
        ab [ -A auth-username:password ] [ -b windowsize ] [ -c concurrency ] [
        -C cookie-name=value ] [ -d ] [ -e csv-file ] [ -f protocol ] [ -g gnu‐
