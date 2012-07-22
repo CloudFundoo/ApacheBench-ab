@@ -4,9 +4,9 @@ Stand alone apache bench - Apache HTTP server benchmarking tool
 
 ##Build Instructions##
 
-Build   
+Build:   
 	$make    
-Clean    
+Clean:    
 	$make clean    
 
 ##Usage##
