@@ -1,16 +1,13 @@
-ApacheBench-ab
-==============
+#ApacheBench-ab#
 
 Stand alone apache bench - Apache HTTP server benchmarking tool
 
-Build Instructions
-------------------
+##Build Instructions##
 
-$make 
+	make 
 
 
-Usage
----------
+##Usage##
 
 ####SYNOPSIS####
        ab [ -A auth-username:password ] [ -b windowsize ] [ -c concurrency ] [
