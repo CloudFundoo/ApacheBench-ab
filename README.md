@@ -9,6 +9,8 @@ Build Instructions
 $make 
 
 
+Usage
+---------
 
 SYNOPSIS
        ab [ -A auth-username:password ] [ -b windowsize ] [ -c concurrency ] [
