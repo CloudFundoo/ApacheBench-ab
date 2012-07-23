@@ -21,4 +21,4 @@ set ylabel "response time (ms)"
 
 # plot data from "out.dat" using column 9 with smooth sbezier lines
 # and title of "Vizsla" for the given data
-plot "data.dat" using 9 smooth sbezier with lines title "Vizsla"
+plot "out.dat" using 9 smooth sbezier with lines title "Vizsla"
