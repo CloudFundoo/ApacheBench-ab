@@ -19,7 +19,7 @@ Clean:
        *   number of requests(-n 100)    
        *   URL(http://www.apache.org)   
 
-#####Using with GnuPlot#####     
+#####Using with GnuPlot#####    
        #ab -c 25 -n 100 -r -g out.dat http://www.apache.org
        Use the plot.p template coming with the source 
        #gnuplot plot.p
