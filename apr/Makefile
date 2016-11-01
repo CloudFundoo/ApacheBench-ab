@@ -1,5 +1,5 @@
-APR=apr-1.4.6
-APRUTIL=apr-util-1.4.1
+APR=apr-1.5.2
+APRUTIL=apr-util-1.5.4
 
 all:$(APR) $(APRUTIL) buildapr
 
