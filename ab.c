@@ -1173,7 +1173,7 @@ static void output_html_results(void)
 
 /* --------------------------------------------------------- */
 
-/* start asnchronous non-blocking connection */
+/* start asynchronous non-blocking connection */
 
 static void start_connect(struct connection * c)
 {
