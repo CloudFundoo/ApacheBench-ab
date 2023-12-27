@@ -12,3 +12,5 @@
 *.a
 
 apr/apr*
+ab
+apr-skeleton
